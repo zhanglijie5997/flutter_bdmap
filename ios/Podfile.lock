@@ -4,14 +4,20 @@ PODS:
   - flutter_bmfbase (0.0.1):
     - BaiduMapKit (= 5.4.0)
     - Flutter
+  - flutter_bmflocation (0.0.1):
+    - Flutter
   - flutter_bmfmap (1.0.0):
     - BaiduMapKit (= 5.4.0)
+    - Flutter
+  - "permission_handler (4.4.0+hotfix.4)":
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_bmfbase (from `.symlinks/plugins/flutter_bmfbase/ios`)
+  - flutter_bmflocation (from `.symlinks/plugins/flutter_bmflocation/ios`)
   - flutter_bmfmap (from `.symlinks/plugins/flutter_bmfmap/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
 
 SPEC REPOS:
   trunk:
@@ -22,15 +28,21 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_bmfbase:
     :path: ".symlinks/plugins/flutter_bmfbase/ios"
+  flutter_bmflocation:
+    :path: ".symlinks/plugins/flutter_bmflocation/ios"
   flutter_bmfmap:
     :path: ".symlinks/plugins/flutter_bmfmap/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
 
 SPEC CHECKSUMS:
   BaiduMapKit: 40a4382633859bd569d40da9f9a2e98a277dd28b
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_bmfbase: 8ac2c94f3f110daec8e499dc13f8a983b0c8ee40
+  flutter_bmflocation: 34352642b43083b3beb38467fce39201a4b620ee
   flutter_bmfmap: 57030919b16b5353649fbea77b6143129f7a4ff1
+  permission_handler: 8278954f2382902f63f00dd8828769c0bd6d511b
 
-PODFILE CHECKSUM: c828106a054d27aae8b2872e20bfd100c5f77425
+PODFILE CHECKSUM: ad4fcde0f892f6859541461ed8ad5d8fb9196e03
 
 COCOAPODS: 1.9.3
