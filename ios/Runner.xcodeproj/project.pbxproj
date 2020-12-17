@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		4E227A292520384200E199E6 /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E227A282520384200E199E6 /* BMKLocationKit.framework */; };
 		4EF8374C251E3B990049BB65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF8374B251E3B990049BB65 /* CoreLocation.framework */; };
 		4EF8374E251E3BA40049BB65 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF8374D251E3BA40049BB65 /* SystemConfiguration.framework */; };
 		4EF83750251E3BAD0049BB65 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF8374F251E3BAD0049BB65 /* Security.framework */; };
@@ -41,6 +42,7 @@
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		4E227A282520384200E199E6 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMKLocationKit.framework; path = ../../../../Downloads/BaiduMap_IOSSDK_v6.0.0/BaiduMap_IOSSDK_v6.0.0_Sample/BMKObjectiveCDemo/BMKObjectiveCDemo/Frameworks/BMKLocationKit.framework; sourceTree = "<group>"; };
 		4E76BB0D251E5C67000F0CAD /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMKLocationKit.framework; path = ../../../../Downloads/BaiduMap_IOSSDK_v6.0.0/BaiduMap_IOSSDK_v6.0.0_Sample/BMKMapSwiftDemo/Frameworks/BMKLocationKit.framework; sourceTree = "<group>"; };
 		4EF8374B251E3B990049BB65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4EF8374D251E3BA40049BB65 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E227A292520384200E199E6 /* BMKLocationKit.framework in Frameworks */,
 				4EF83758251E3BD20049BB65 /* AdSupport.framework in Frameworks */,
 				4EF83756251E3BC90049BB65 /* libc++.tbd in Frameworks */,
 				4EF83754251E3BC00049BB65 /* CoreTelephony.framework in Frameworks */,
@@ -87,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				4E76BB0D251E5C67000F0CAD /* BMKLocationKit.framework */,
+				4E227A282520384200E199E6 /* BMKLocationKit.framework */,
 				4EF83757251E3BD20049BB65 /* AdSupport.framework */,
 				4EF83755251E3BC90049BB65 /* libc++.tbd */,
 				4EF83753251E3BC00049BB65 /* CoreTelephony.framework */,
@@ -271,7 +275,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
 		};
 		A59FFB0C8657B37854D9590E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -404,6 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = LYJ87W9832;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -418,7 +423,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.map;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studymap1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -543,6 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = LYJ87W9832;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -557,7 +563,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.map;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studymap1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -574,6 +580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = LYJ87W9832;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,7 +595,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.map;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studymap1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

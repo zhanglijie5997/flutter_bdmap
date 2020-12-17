@@ -1,5 +1,6 @@
 PODS:
   - BaiduMapKit (5.4.0)
+  - BMKLocationKit (1.8.5)
   - Flutter (1.0.0)
   - flutter_bmfbase (0.0.1):
     - BaiduMapKit (= 5.4.0)
@@ -13,6 +14,7 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
+  - BMKLocationKit
   - Flutter (from `Flutter`)
   - flutter_bmfbase (from `.symlinks/plugins/flutter_bmfbase/ios`)
   - flutter_bmflocation (from `.symlinks/plugins/flutter_bmflocation/ios`)
@@ -22,6 +24,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - BaiduMapKit
+    - BMKLocationKit
 
 EXTERNAL SOURCES:
   Flutter:
@@ -37,12 +40,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BaiduMapKit: 40a4382633859bd569d40da9f9a2e98a277dd28b
+  BMKLocationKit: fd3d6b4a9a3a1a2763819f56b780bda5fc5b8726
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_bmfbase: 8ac2c94f3f110daec8e499dc13f8a983b0c8ee40
   flutter_bmflocation: 34352642b43083b3beb38467fce39201a4b620ee
   flutter_bmfmap: 57030919b16b5353649fbea77b6143129f7a4ff1
   permission_handler: 8278954f2382902f63f00dd8828769c0bd6d511b
 
-PODFILE CHECKSUM: ad4fcde0f892f6859541461ed8ad5d8fb9196e03
+PODFILE CHECKSUM: 83c48cb2ee7291dc286bcd5168178a99bd395d7a
 
 COCOAPODS: 1.9.3

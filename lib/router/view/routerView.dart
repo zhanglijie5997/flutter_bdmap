@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:map/components/bdMap.dart';
 import 'package:map/page/index/index.dart';
 import 'package:map/router/bloc/routerBloc.dart';
 
@@ -44,7 +45,7 @@ class _RouterViewState extends State<RouterView> {
       margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      child: _viewPager,
+      child: AMap(),
     )); 
   }
 }
